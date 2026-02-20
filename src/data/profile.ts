@@ -69,7 +69,7 @@ export const profile: Profile = {
     fullName: 'Jawahir Bejjaoui',
     title: 'Candidate alternance – Audit financier & Analyse des comptes',
     email: 'bejjaouijawahir@gmail.com',
-    phone: '+212 629531814',
+    phone: '+33 7 56 97 38 92',
     location: 'Rennes / Paris – France',
     linkedin: 'https://www.linkedin.com/in/jawahir-bejjaoui-71446b215/',
   },
@@ -104,25 +104,32 @@ export const profile: Profile = {
     {
       period: '2026–2027',
       school: 'Rennes Business School',
-      degree: 'Master 2 Finance Internationale (double diplôme ENCG × Rennes BS)',
+      degree: 'Master 2 Finance Internationale',
       details: [
-        'Spécialisation finance internationale et audit',
-        'Environnement académique prestigieux',
+        'Double diplôme ENCG × Rennes Business School',
       ],
     },
     {
-      period: '2021–2026',
-      school: 'ENCG',
-      degree: 'Diplôme Gestion – Spécialité Finance',
+      period: '2023–2026',
+      school: 'École Nationale de Commerce et de Gestion (ENCG) – Fès',
+      degree: 'Cycle Master – Spécialité Finance',
       details: [
-        'Comptabilité générale, audit, finance d\'entreprise',
-        'Leadership et environnement multiculturel',
+        'Transfer from ENCG Kénitra',
       ],
+    },
+    {
+      period: '2021–2023',
+      school: 'École Nationale de Commerce et de Gestion (ENCG) – Kénitra',
+      degree: 'Cycle préparatoire en Gestion',
     },
     {
       period: '2021',
-      school: 'Baccalauréat',
-      degree: 'Sciences Économiques – Mention Bien',
+      school: 'Lycée One Sigma',
+      degree: 'Baccalauréat Sciences Économiques',
+      details: [
+        'Mention: Bien',
+        'Élève majorante',
+      ],
     },
   ],
   skills: [
@@ -167,9 +174,9 @@ export const profile: Profile = {
   ],
   experience: [
     {
-      period: 'Août 2025 – Octobre 2025',
-      company: 'Douanes & Impôts Indirects',
-      position: 'Assistante Contrôle Douanier & Fiscal',
+      period: 'Août – Septembre 2025',
+      company: 'Administration des Douanes et Impôts Indirects',
+      position: 'Assistante en contrôle douanier et fiscal',
       location: 'Maroc',
       description: 'Assistance aux opérations de contrôle douanier et fiscal, suivi des déclarations, support administratif.',
       highlights: [
@@ -179,10 +186,10 @@ export const profile: Profile = {
       ],
     },
     {
-      period: 'Juin 2025 – Juillet 2025',
+      period: 'Juin – Juillet 2025',
       company: 'Banque CIH',
-      position: 'Analyste Junior Opérations Bancaires',
-      location: 'Maroc',
+      position: 'Analyste junior en opérations bancaires',
+      location: 'Fès',
       description: 'Assistance aux opérations de change, virements, suivi de flux financiers.',
       highlights: [
         'Traitement des opérations de change quotidiennement',
@@ -191,21 +198,9 @@ export const profile: Profile = {
       ],
     },
     {
-      period: 'Octobre 2024 – Novembre 2024',
-      company: 'Trésorerie Générale',
-      position: 'Assistante Fiscalité & Comptabilité',
-      location: 'Maroc',
-      description: 'Assistance en matière fiscale, comptabilité analytique, reporting financier.',
-      highlights: [
-        'Dashboards Excel/Power BI suivi des entreprises',
-        'Consolidation de données financières',
-        'Analyse des déclarations fiscales',
-      ],
-    },
-    {
-      period: 'Mars 2024 – Juin 2024',
-      company: 'ONCF',
-      position: 'Assistante Administrative & Financière',
+      period: 'Mars – Juin 2024',
+      company: 'Office National des Chemins de Fer (ONCF)',
+      position: 'Assistante administrative et financière',
       location: 'Maroc',
       description: 'Support administratif et financier, gestion de dossiers, suivi budgétaire.',
       highlights: [
@@ -215,9 +210,21 @@ export const profile: Profile = {
       ],
     },
     {
-      period: 'Juin 2023 – Juillet 2023',
+      period: 'Octobre – Novembre 2023',
+      company: 'Trésorerie Générale du Royaume du Maroc',
+      position: 'Assistante en fiscalité et comptabilité',
+      location: 'Maroc',
+      description: 'Assistance en matière fiscale, comptabilité analytique, reporting financier.',
+      highlights: [
+        'Dashboards Excel/Power BI suivi des entreprises',
+        'Consolidation de données financières',
+        'Analyse des déclarations fiscales',
+      ],
+    },
+    {
+      period: 'Juillet 2023',
       company: 'Bureau Fiduciaire',
-      position: 'Assistante Audit & Comptabilité',
+      position: 'Stagiaire en audit et gestion des risques',
       location: 'Maroc',
       description: 'Support en audit, vérification des comptes, conformité réglementaire.',
       highlights: [
@@ -228,8 +235,8 @@ export const profile: Profile = {
     },
     {
       period: 'Juillet 2022',
-      company: 'Sanlam Assurance',
-      position: 'Stage Observation Audit & Risques',
+      company: 'Agence d\'Assurance Sanlam',
+      position: 'Stagiaire en audit et gestion des risques',
       location: 'Maroc',
       description: 'Observation des processus d\'audit interne et gestion des risques.',
       highlights: [
@@ -289,15 +296,32 @@ export const profile: Profile = {
   ],
   engagements: {
     roles: [
-      { organization: 'ADE ENCG Fès', role: 'Sponsoring' },
-      { organization: 'AIESEC', role: 'Recrutement' },
-      { organization: 'TEDxENCG Fès', role: 'Sponsoring' },
-      { organization: 'Junior Consulting ENCG Kénitra', role: 'Prospection' },
-      { organization: 'Sit With Entrepreneur', role: 'Certification Organisatrice' },
+      { 
+        organization: 'AIESEC',
+        role: 'Présidente du processus de recrutement • Team Leader Marketing (2 mandats consécutifs) • KPI recruitment tracking • CRM reporting • Coordination d\'équipes en transversalité • Organisation de réunions O2O • Suivi individuel des objectifs'
+      },
+      { 
+        organization: 'ADE ENCG Fès',
+        role: 'Négociation et formalisation de 25 contrats sponsors • Coordination avec les partenaires • Suivi du respect des engagements contractuels'
+      },
+      { 
+        organization: 'TEDxENCG Fès',
+        role: 'Gestion des partenariats et négociation sponsors • Suivi de la performance des partenariats'
+      },
+      { 
+        organization: 'Junior Consulting ENCG Kénitra',
+        role: 'Prospection commerciale • Développement du portefeuille clients • Contribution à la structuration des offres'
+      },
     ],
     volunteer: [
-      { organization: 'Bassma Club', role: 'Présidente' },
-      { organization: 'Lions Club', role: 'Prospection' },
+      { 
+        organization: 'Bassma Club ENCG Fès',
+        role: 'Pilotage de projets à impact social • Coordination d\'équipes bénévoles'
+      },
+      { 
+        organization: 'Lions Club',
+        role: 'Développement de partenariats • Mobilisation de ressources • Appui à l\'organisation d\'actions caritatives'
+      },
     ],
   },
   valueProposition: [
