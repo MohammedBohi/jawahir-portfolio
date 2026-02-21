@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ChevronDown, FileText, Linkedin } from 'lucide-react';
+import { ChevronDown, Linkedin } from 'lucide-react';
 import { profile } from '../data/profile';
 import { MotionInView } from './MotionInView';
 import jijiImage from '../image/jiji.jpg';
@@ -92,16 +92,6 @@ export const Hero = () => {
               transition={{ delay: 0.5, duration: 0.7 }}
               className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-6 sm:pt-8"
             >
-              <motion.a
-                href="/cv.pdf"
-                download
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-pink-600 text-white font-semibold rounded-lg hover:bg-pink-700 transition-colors shadow-lg hover:shadow-xl"
-              >
-                <FileText className="w-5 h-5" />
-                <span>Télécharger CV</span>
-              </motion.a>
               <motion.a
                 href={profile.identity.linkedin}
                 target="_blank"
